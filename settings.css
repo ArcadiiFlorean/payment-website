@@ -1,0 +1,27 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+.container {
+
+  max-width: 1540px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 22px;
+}
+
+@font-face{
+  font-family: "GT Walcheim Trial";
+  src: url(./fonts/GT\ Walsheim\ Trial\ Cn\ Bl.woff);
+  font-weight: 200;
+  font-display: swap;
+}
+
+
